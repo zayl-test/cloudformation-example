@@ -28,7 +28,7 @@ Resources:
         Fn::GetAtt:
           - FunctionRole
           - Arn
-      Runtime: nodejs12.x
+      Runtime: nodejs18.x
       Code:
         ZipFile:
           Fn::Sub: |
